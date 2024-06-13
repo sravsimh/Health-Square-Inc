@@ -10715,7 +10715,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #231942 !important;
     position: relative;
     top: 0;
   }
@@ -12352,6 +12352,14 @@ textarea.form-control {
   z-index: -1;
   opacity: 0;
   background: #000000;
+}
+
+.fa-solid, .fas {
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
+.ul-practices p{
+  font-weight: 400;
 }
 
 .ftco-counter {
