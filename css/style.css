@@ -110,7 +110,8 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 600;
-  font-family: "Poppins", Arial, sans-serif
+  font-family: "Poppins", Arial, sans-serif;
+  color: #655c5c;
 }
 
 abbr[title],
@@ -250,8 +251,10 @@ th {
 }
 
 label {
+  color: #2588c1;
   display: inline-block;
   margin-bottom: 0.5rem;
+  width:-webkit-fill-available ;
 }
 
 button {
@@ -3579,9 +3582,9 @@ input[type="button"].btn-block {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #16181b;
+  color: #ffffff;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: blueviolet;
 }
 .dropdown-item.active,
 .dropdown-item:active {
@@ -3658,7 +3661,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .btn-toolbar .input-group {
   width: auto;
@@ -11917,6 +11920,9 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden;
+}
+.ftco-color h1 {
+  color: #002f94;
 }
 
 .bg-primary {
