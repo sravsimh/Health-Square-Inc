@@ -78,12 +78,18 @@ body {
   background-color: #fff;
 }
 
-
+.ftco-footer-widget a img{
+  width: 85%;
+}
 
 .ml-auto li a{
   font-size: 1.15em!important;
 }
-
+@media (min-width:992px) and (max-width:1340px)   {
+  .ml-auto li a {
+    font-size: 0.8em !important;
+}
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
