@@ -9,10 +9,10 @@ $.fn.commentCards = function () {
     function showNextCard() {
       $cards.removeClass("card--current card--out card--next");
       $current.addClass("card--out");
-      $current = $current.next();
-      $next = $current.length ? $current : $cards.first();
-      $next.addClass("card--current");
-      $next.next().addClass("card--next");
+      $current = $current.next().length ? $current.next() : $cards.first();
+      $current.addClass("card--current");
+      $next = $current.next().length ? $current.next() : $cards.first();
+      $next.addClass("card--next");
     }
 
     // Click event to show next card
