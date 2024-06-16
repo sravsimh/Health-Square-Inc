@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pop-form.css">
   </head>
   <body>
     
@@ -46,7 +47,7 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="hippa.html" class="nav-link" style="width: max-content;">HIPPA Compliance</a></li>
+	          <li class="nav-item"><a href="HIPAA.html" class="nav-link" style="width: max-content;">HIPAA Compliance</a></li>
 	          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" href="credentialing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
@@ -104,7 +105,52 @@
         </div>
       </div>
     </section> 
-
+    <form id="contactForm" style="    background: #f8f9fa45 !important;
+    position: fixed;
+    z-index: 3;
+    top: 20%;
+    right: -394px;
+    visibility: visible;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+"
+            action="https://formspree.io/f/mpzvvljr"
+            method="POST"
+            class="bg-light p-5 contact-form pop-form"
+          >
+          
+            <div class="form-group ">
+              <label>
+                Name :
+                <input type="text" class="form-control" placeholder="Your Name" name="Name">
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                Email:
+                <input type="text" class="form-control" placeholder="Your Email" name="email">
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                Subject:
+                <input type="text" class="form-control" placeholder="Subject" name="Subject">
+              </label>
+            </div>
+            <div class="form-group">
+              <label >
+                Message:
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message" name="Message" style="height: 52px!important;"></textarea>
+              </label>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit" class="btn btn-primary py-3 px-5">Send Message</button>
+            <button type="button" class="btn btn-dark" id="toggleFormButton" style="    position: fixed;
+            right: 312px;
+            transform: rotate(90deg);
+            bottom: 285px;
+            width: 200px;">contact</button>
+    </form>
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -188,6 +234,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="js/pop-form.js"></script>
   </body>
 </html>

@@ -2232,7 +2232,9 @@ textarea.form-control {
 .form-group {
   margin-bottom: 1rem;
 }
-
+.pop-form div label{
+  color: black!important;
+}
 .form-text {
   display: block;
   margin-top: 0.25rem;
