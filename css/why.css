@@ -8,7 +8,8 @@
   color: #002825;
   text-align: center;
   max-height: min-content;
-  margin: 0 1rem;
+
+  margin-bottom: 2em;
 }
 .info-box div h1 {
   color: #0b4978;
@@ -20,7 +21,7 @@
 }
 .info-box {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
   align-items: stretch;
